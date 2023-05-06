@@ -1,0 +1,28 @@
+Classes:
+
+Boundaries:
+Member Report
+Manager Report
+Provider Report
+Terminal
+Member Records
+Provider Records
+ChocAn Bill
+
+
+
+Control:
+ChocAn Report Generator (Member, Provider, and Manager)
+User Validation Controller (Member, Provider)
+ChocAn Data Center Dialer
+Provider Directory Generator
+Record Edit Controller (Member, Provider, and Manager)
+
+
+
+
+
+Entity:
+ChocAn Data Center
+Provider Directory
+ChocAn Service Fee Directory

@@ -1,0 +1,27 @@
+Use Case: Request Manager Report
+Context: Any time during the week, a ChocAn manager may request that a number of reports be run.
+         The report lists every provider to be paid that week, the number of consultations each 
+         had, and his or her total fee for that week. 
+         Finally, the total number of providers who provided services, the total number of consultations, 
+         and the overall fee total are printed.
+Actors: Managers
+Main Success Scenario:
+    1. A ChocAn manager logs in to the terminal.
+    2. The manager chooses which report to run.
+    3. The manager is asked if they would like to exit.
+    4. The use case is complete, exit the system.
+Extensions: 
+	2a. Manager report chosen
+		2a.1. The correct information to include in a manager report is gathered.
+		2a.2. The report is sent as an email attachment to the manager.
+		2a.3. This use case continues at step 3.
+	2b. Provider report chosen
+		2b.1. The correct information to include in a provider report is gathered.
+		2b.2. The report is sent as an email attachment to the manager.
+		2b.3. This use case continues at step 3.
+	2c. Member report chosen
+		2c.1. The correct information to include in a member report is gathered.
+		2c.2. The report is sent as an email attachment to the manager.
+		2c.3. This use case continues at step 3.
+	3a. Do not exit is chosen
+		3a.1. The use case continues at step 2.

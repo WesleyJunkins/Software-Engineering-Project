@@ -1,0 +1,9 @@
+Use Case: Verify Manager
+Context: The ChocAn system is operational and a manager needs to verify a provider's status.
+Actors: Manager
+Main Success Scenario:
+1. The manager selects the "Verify Provider" option from the main menu.
+2. The system prompts the manager to enter the provider's ID.
+3. The manager enters the provider's ID.
+4. The system verifies the provider's status and displays a message indicating whether the provider is active or inactive.
+Extensions: N/A

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 17 Report</title>
+</head>
+<body>
+    <center>
+    <h1>Header</h1>
+    <table>
+	  <tr>
+	    <th>Name</th>
+	    <th>CWID</th> 
+	    <th>Email</th>
+	    <th>Hours</th>
+	  </tr>
+	  <tr>
+	    <td>Campbell Thompson</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	  <tr>
+	    <td>Dylan Lovino</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	  <tr>
+	    <td>Nicholas Seidl</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	  <tr>
+	    <td>Sam Wood</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	  <tr>
+	    <td>Sonny Ngo</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	  <tr>
+	    <td>Wesley Junkins</td>
+	    <td>--CWID--</td> 
+	    <td>--EMAIL--</td>
+	    <td>--HOURS--</td>
+	  </tr>
+	</table>
+	<h1>Task Distribution</h1>
+    <table>
+	  <tr>
+	    <th>Name</th>
+	    <th>Tasks</th> 
+	    <th>%</th>
+	  </tr>
+	  <tr>
+	    <td>Campbell Thompson</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	  <tr>
+	    <td>Dylan Lovino</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	  <tr>
+	    <td>Nicholas Seidl</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	  <tr>
+	    <td>Sam Wood</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	  <tr>
+	    <td>Sonny Ngo</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	  <tr>
+	    <td>Wesley Junkins</td>
+	    <td>--TASKS--</td> 
+	    <td>--%--</td>
+	  </tr>
+	</table>
+	<h1>Bitbucket Statistics Table</h1>
+	<img src="PUT THE NAME OF THE FILE HERE"></img>
+	
+	<h1>Short Paragraph</h1>
+	<p>PUT THE ENTIRE PARAGRAPH HERE</p>
+	
+	<h1>Glossary</h1>
+	<p>COPY AND PASTE THE GLOSSARY INTO HERE</p>
+	
+	<h1>Use Case Diagram</h1>
+	<img src="PUT THE NAME OF THE FILE HERE"></img>
+	
+	<h1>Use Case Descriptions</h1>
+	<p>COPY AND PASTE USE CASE DESCRIPTIONS HERE</p>
+
+    </center>
+</body>
+</html>

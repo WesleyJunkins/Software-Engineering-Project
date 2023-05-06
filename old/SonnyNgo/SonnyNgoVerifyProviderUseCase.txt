@@ -1,0 +1,11 @@
+Use Case: Verify provider
+Context: A ChocAn manager needs to verify the status of a provider's membership before authorizing payment for services rendered by the provider.
+Actors: Manager, Provider
+Main Success Scenario:
+1. The manager requests the provider's member number and enters it into the ChocAn system.
+2. The system confirms the provider's membership status.
+3. If the provider's membership is valid, the manager authorizes payment for services rendered by the provider.
+4. If the provider's membership is not valid, the manager informs the provider and does not authorize payment for services rendered.
+Extensions:
+2a. If the system cannot confirm the provider's membership status, the manager requests additional information from the provider and verifies their identity.
+2b. If the provider's membership has expired, the manager informs the provider and does not authorize payment for services rendered until the membership is renewed.

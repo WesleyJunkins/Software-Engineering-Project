@@ -1,0 +1,12 @@
+Use Case: Send Weekly Bills
+Context: Each week, the Data Center will send reports to providers detailing the fees to be paid to providers by ChocAn.
+Actors: Data Center
+Main Success Scenario:
+1. At midnight on each Friday, the Data Center runs the main accounting procedure.
+2. System requests weekly provider billing reports which detail the list of services they provided to members that week.
+3. System adds the information from the provider's form to the report documents.
+4. System adds the provider's name, number, street address, city, state, and ZIP code to each report.
+5. System adds the date of service, date and time the service data was received by the computer, the member's name and number who received the service, the service code, fee to be paid for the service, the total fees to be paid for all services that week, and the total number of consultations that the provider provided to members that week.
+6. System sends individual reports to providers in an email attachment.
+7. System writes EFT data to a disk to ensure proper reimbursement to providers.
+8. System sends an additional summary report to managers containing all providers to be paid, the number of consultations for each provider, and the total fee for each provider to be paid.

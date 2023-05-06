@@ -1,0 +1,12 @@
+Use Case: Check in member
+Context: When obtaining healthcare services from ChocAn, the member presents their card to the provider who swipes it through the terminal's card reader. 
+The terminal then connects to the ChocAn Data Center, where the computer verifies the member's number. 
+If the number is valid, the display shows "Validated." If the number is not valid, the display shows the reason, such as "Invalid number" or "Member suspended," the latter indicating that the member owes membership fees and their status has been set to suspended.
+Actors: Provider
+Main Success: 
+	1. The terminal dials the ChocAn Data Center, and the computer verifies the member number.
+	1.1. If the number is valid, the word "Validated" appears on the one-line display.
+
+Extensions
+	1a. If the number is invalid, the reason is displayed, such as "invalid number" or "member suspended"; member suspension means that fees are owed (the member has not paid
+membership fees for at least one month) and status has been changed to suspended.

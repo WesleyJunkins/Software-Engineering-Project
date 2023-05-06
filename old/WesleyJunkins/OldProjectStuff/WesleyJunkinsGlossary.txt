@@ -1,0 +1,30 @@
+ChocAn: An organization dedicated to helping pay the bills of Chocoholics as they seek treatment.
+        They are the entity we are making an application for.
+
+Member: Anyone who receives services from a provider and uses ChocAn.
+
+Provider: Anyone who is formally registered with ChocAn and provides services to Members.
+
+Account Suspended: A member's account may be suspended (no longer receiving ChocAn services) if they have an unpaid bill. This can be corrected only by paying that bill.
+
+Terminal: The physical machine that a provider uses to interact with ChocAn's database. We are developing software for this terminal. The terminal also features a card reader.
+
+Provider Directory: A directory of all Providers in ChocAn's system. It also includes their codes and service fees.
+
+Provider Service: Any service (therapy, aerobics, etc.) that is provided by a provider to a ChocAn member. They type and length of these are determined by the provider.
+
+Software Product: The specific software system that we are designing for ChocAn. This system runs on the provider's terminal.
+
+ChocAn Data Center: (Out of scope for our software). Holds the information of all members, providers, and transactions that deal with ChocAn.
+
+ChocAn Manager: A directo employee of ChocAn (not a provider) who has access to data from ChocAn Data Center.
+
+Service Name: The name of the specific service provided by the provider. To be determined by the provider.
+
+Weekly Report: Any provider who has billed ChocAn in a week, and also ChocAn managers, are given access to a report that details their transactions.
+
+Written to Disk: A term referring to the saving of any data entered into the terminal. This data could, for example, be later available to a banking computer.
+
+Interactive mode: (Out of scope for our software). The time when ChocAn's data center accepts new patient additions and old patient deletions. Runs during the day.
+
+Acme Accounting Services: (Out of scope for our software). Responsible for managing the financial nature of ChocAn.

@@ -1,0 +1,16 @@
+Things to do:
+
+-Add attributes to MY steryotype diagram.
+-Find a time to meet with Trina
+-Go back over project 1 instructions on resubmitting
+-Combine our steryotype diagrams into one GOOD steryotype diagram
+-Create my "per use-case" activity diagrams
+-Create MY main use case diagram
+-Create a TEAM main activity diagram
+-Go back over project 2 instructions
+-Put everything into main html file
+-Put proj 1 folder inside proj 2 folder BEFORE submitting
+-Put all new use-case descriptions, use-case diagram, and other stuff into proj 1 folder BEFORE submitting proj 2
+-Write a summary paragraph using proj 2 requirements
+-Talk about my question about the new use-case diagram and the direction the extends are pointing
+-Go back through my activity diagrams to see if there is anything I need to add (like extensions)

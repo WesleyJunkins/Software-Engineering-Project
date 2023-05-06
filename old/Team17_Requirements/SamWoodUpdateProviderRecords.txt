@@ -1,0 +1,29 @@
+Use case: Update provider records
+Context: Context: Add new providers who have joined ChocAn, delete providers who no longer work at ChocAn, or update an existing provider’s records. All information is stored in the ChocAn Data Center.
+Actors: Operator
+Main Success Scenario: The step-by-step description, such as: 
+1. Operator who wants to change provider records logs in to the ChocAn Data Center system, which is in interactive mode during the day.
+2. System displays an option to change either member or provider records.
+3. Operator selects “Provider”.
+4.System displays a menu to select whether to update, add, or delete a provider.
+5. Operator makes the desired selection.
+6. System requests the operator to enter the user’s name.
+7. Operator enters the name.
+8. If selected option was “Add Provider”, system adds the member. If selected option was “Update Provider”, operator updates the desired information. If selected option was “Delete Provider”, system deletes the member.
+9. System displays a menu to change other records or to finish.
+10. Operator makes the desired selection.
+11. If selection is “Finish”, ChocAn Data Center returns to the login screen.
+
+Extensions: Possible alternatives to the steps you may think of (e.g., what happens if something goes wrong at this step), such as: 
+1a. Incorrect login information.
+	2a1. ChocAn Data Center displays an error message.
+	2a2. Use case continues at Step 1.
+7a. Previous option selected was “Update” or “Delete” and name does not exist in the database.
+	7a1. System displays an error message stating that the name does not exist.
+	7a2. Use case continues at Step 6.
+8a. Selected option is “Add”
+8a1. After adding member, System asks the operator if they want to update the records of the newly added provider.
+8a2. If yes, use case continues at Step 8, with option being “Update Provider” performed on the name of the newly added member.
+	8a3. If no, continue to Step 9. 
+10a. Selection is “Change Other Records”.
+	10a1. Use case continues at Step 4.

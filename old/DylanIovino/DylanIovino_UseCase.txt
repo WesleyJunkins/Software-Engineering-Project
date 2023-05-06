@@ -1,0 +1,40 @@
+Use Case: File Service Report
+Context: After a visit with a member, the provider must record the session at the terminal in order to keep records and receive payment for the session
+Actors: Provider
+Main Success Case:
+
+1. Provider swipes Member card
+2. System validates Member card
+3. Terminal displays “Validated” if valid card
+4. Provider keys in date of service
+5. Provider keys in service code (type of service)
+6. Terminal displays service for code entered
+     6.1 Terminal asks Provider to verify service is correct
+7. Provider has option to enter comments about service
+8. System writes record to disk
+     8.1 Record contains the following
+           Current date/time
+           Date service provided
+           Provider Number
+           Member Number
+           Service code
+           Comments
+9. System looks up and displays fee to be paid for service
+10. Terminal asks Provider to verify fee to be paid
+11. Provider is asked to enter the following
+     11.1 Current date/time
+             Date service provided
+             Member Name
+             Member Number
+             Service code
+             Fee to be paid
+12. End use case
+
+Extensions
+2a. Member card is invalid
+     2a.1 Terminal displays error message (nonexistent member or suspended member)
+     2a.2 Return to step 1
+
+5a. Service code is invalid
+     5a.1 Terminal displays error message
+     5a.2 Return to step 5

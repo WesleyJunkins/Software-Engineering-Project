@@ -1,0 +1,13 @@
+body {
+  background-color: darkolivegreen;
+}
+h1 {
+  color: darkkhaki;
+}
+p {
+  color: red;
+}
+
+table, th, td {
+  border: 1px solid white;
+}

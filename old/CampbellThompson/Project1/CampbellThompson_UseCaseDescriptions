@@ -1,0 +1,51 @@
+Use Case: Request report
+Actors: Manager
+Context: Manager may request any of the 4 report types at any time
+Main Success:
+	1. System verifies user is a manager
+	2. Manager selects either a member, provider, manager, or EFT report on main request report page
+	3. System gathers necessary information from the Data Center (i.e., Names, services, etc.)
+	4. System formats information in an email and sends to manager
+	5. System returns to the Request report home page
+Extensions:
+	3.a  Member report
+		1.a.1 System compiles member name, number, and billing address; and provider name, service date, and service name for each service provided that week
+		1.a.2 Continue at step 4
+	3.b  Provider Report
+		1.b.1 System compiles provider name, number, and billing address; and all service and member information for each service provided that week
+		1.b.2 Continue at step 4
+	3.c Manager report 
+		1.c.1 System compiles all provider names, number of services provided, and money owed to each provider, as well as total providers who worked that week, total services provided, and overall fee for the week
+		1.c.2 Continue at step 4
+	3.d EFT report
+		1.d.1 System writes all electronic funds transfer data to a disk detailing all providers that need to be paid for the week.
+		1.d.2 Continue at step 4
+		
+Use Case: Validate Member
+Actors: Provider
+Context: Provider checks in member for service by scanning their card
+	1. Provider runs a membership card through the central terminal
+	2. Terminal checks the Data Center to validate the member number
+	3. System writes result to one-line display
+	4. System returns to main menu
+Extensions:
+	2.a Valid number
+		2.a.1 The system finds the member's number in the Data Center
+		2.a.2 The system writes the word "Validated" on the one-line display.
+		2.a.3 Continue at step 4
+	2.b Invalid number
+		2.b.1 The system does not find the member's number in the Data Center.
+		2.b.2 The system writes "Invalid number" on the one-line display.
+		2.b.3 Continue at step 4
+	2.c Member suspended
+		2.c.1 The system finds the member number, but the member's status is suspended due to unpaid fees
+		2.c.2 The system writes "Member suspended" on the one-line display.
+		2.c.3 Continue at step 4
+
+
+
+		
+		
+		
+		
+		

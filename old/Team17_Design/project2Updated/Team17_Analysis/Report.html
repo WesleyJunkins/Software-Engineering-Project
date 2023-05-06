@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team 17 is the Best Team!</title>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <!--We have to use this instead of import styles.css in the main.js file. This is what was keeping the page from loading stuff correctly! -->
+</head>
+
+<body>
+  <canvas id="bg"></canvas> <!-- We add the canvas so that ThreeJS knows where to paint its picture on. -->
+  <main>
+    <header>
+      <h1>Chocoholics Anonymous</h1>
+      <p>Analysis Report</p>
+    </header>
+    <blockquote>
+      <p>By Team 17</p>
+    </blockquote>
+    <section>
+      <h2>Analysis</h2>
+      <p>Chocoholics Anonymous, or “ChocAn,” is a company dedicated to helping people overcome addiction to chocolate. Members have access to a plethora of services including dieting consultation, personal trainers, and much more. Our software will be able to complete all processes necessary to a comfortable customer and healthcare provider experience. The sole 4 actors include healthcare providers, managers, operators, and a timer. From the central terminal, providers will be able to check in customers by scanning their member card and then logging service details to the company Data Center. This report requires a service code, which may be accessed in the Provider Directory pop-up. Upon completing this report, providers may scan the member card again to bill the company. Every Friday at midnight, the timer runs the Main Accounting Procedure through the third party ACME Accounting services. Additionally, it compiles all the transaction information for the week and sends out summary member, provider, manager, and EFT reports to all members, providers, and managers. Managers can also request these reports at any time.  Member and provider profiles may be managed only by software operators. This project will be coded in Java and will take an estimated 3 months to complete by our team of 6 members: Dylan Iovino, Wesley Junkins, Sonny Ngo, Nicholas Seidl, Campbell Thompson, and Sam Wood. For Project 1, we created a glossary of terms necessary to use our software, as well as a Use Case Diagram and Use Case Descriptions for our initial design. For Project 2, we created activity diagrams for each of those use cases, one main activity diagram for the entire system, and a stereotyped class diagram. 
+</p>
+    </section>
+    
+    <section class="light">
+      <h2>Header</h2>
+		<table>
+	  <tr>
+	    <th>Name</th>
+	    <th>CWID</th> 
+	    <th>Email</th>
+	    <th>Hours</th>
+	  </tr>
+	  <tr>
+	    <td>Campbell Thompson</td>
+	    <td>--12051119--</td> 
+	    <td>--crthompson10@crimson.ua.edu--</td>
+	    <td>--6.0--</td>
+	  </tr>
+	  <tr>
+	    <td>Dylan Iovino (Submitter)</td>
+	    <td>--12196331--</td> 
+	    <td>--djiovino@crimson.ua.edu--</td>
+	    <td>--6.3--</td>
+	  </tr>
+	  <tr>
+	    <td>Nicholas Seidl</td>
+	    <td>--12260915--</td> 
+	    <td>--naseidl@crimson.ua.edu--</td>
+	    <td>--6.0--</td>
+	  </tr>
+	  <tr>
+	    <td>Sam Wood</td>
+	    <td>--12165183--</td> 
+	    <td>--scwood4@crimson.ua.edu--</td>
+	    <td>--5.8--</td>
+	  </tr>
+	  <tr>
+	    <td>Sonny Ngo</td>
+	    <td>--12126308--</td> 
+	    <td>--smngo@crimson.ua.edu--</td>
+	    <td>--5.8--</td>
+	  </tr>
+	  <tr>
+	    <td>Wesley Junkins</td>
+	    <td>--12048877--</td> 
+	    <td>--wcjunkins@crimson.ua.edu--</td>
+	    <td>--6.0--</td>
+	  </tr>
+	</table>
+    </section>
+    
+    <section class="light">
+      <h2>Task Distribution</h2>
+	<table>
+	  <tr>
+	    <th>Name</th>
+	    <th>Tasks</th> 
+	    <th>%</th>
+	  </tr>
+	  <tr>
+	    <td> Campbell Thompson </td>
+			<td> 
+			2 Updated Use Case Description & Activity Diagrams (Request Reports & Validate Member) <br> Update Summary paragraph <br> Individual Activity Diagram & Stereotype Diagram
+		 	</td>
+			<td> 16.6% </td>
+	  </tr>
+	  <tr>
+	    <td> Dylan Iovino (Submitter)</td>
+			<td>
+			Submitted final HTML report <br> Main Activity Diagram <br> Final Stereotype Class Diagram <br> Updated Use Case Diagram <br> Updated 1 use case description <br> and activity diagram <br> (Bill ChocAn)
+			</td>
+			<td> 17.0% </td>
+	  </tr>
+	  <tr>
+	    <td> Nicholas Seidl </td>
+			<td>
+			1 Updated Use Case (consolidated send member and provider reports into main accounting procedure) <br> 2 Activity diagrams (Verify Operator, main accounting procedure) <br> Individual Stereotype Diagram <br> Individual html 
+
+			</td>
+			<td> 16.6% </td>
+	  </tr>
+	  <tr>
+	    <td> Sam Wood </td>
+			<td> 
+			Final main activity diagram<br> individual main activity & stereotype diagram<br> two use case activity diagrams with updated use case descriptions (Update member records and update provider records)<br>individual HTML file 
+			</td>
+			<td> 16.7% </td>
+	  </tr>
+	  <tr>
+	    <td> Sonny Ngo </td>
+			<td>
+			 Updated extension field for use case diagrams<br> Individual activity diagram and stereotype diagram<br> Individual HTML report<br> Verify manager and verify provider use case descriptions and diagrams
+			</td>
+			<td> 16.5% </td>
+	  </tr>
+	  <tr>
+	    <td> Wesley Junkins </td>
+			<td>
+			Individual Main Activity Diagram<br>Individual stereotype diagram<br>Individual use-case activity diagrams<br>personal HTML file<br> Designed and Developed Report.HTML<br>compiled HTML file. 
+			</td>
+			<td> 16.8% </td>
+	  </tr>
+	</table>
+    </section>
+    
+    <section class="light">
+      <h2>Main Activity Diagram</h2>
+		<img src='mainActDia.png' width="960" height="700">
+    </section>
+    
+    <section class="light">
+      <h2>Main Stereotype Diagram</h2>
+		<img src='mainStereotype.png'>
+    </section>
+    
+        <blockquote>
+      <p>Individual Use-Case Activity Diagrams</p>
+    </blockquote>
+    
+    <section>
+      <h2>Validate Member Use Case Activity Diagram</h2>
+	  <img src='ValidateMember_AD.png'>
+    </section>
+    
+        <section>
+      <h2>Request Provider Directory Use Case Activity Diagram</h2>
+	  <img src='WesleyJunkinsRequestProviderDirectorytActivityDiagram.png'>
+    </section>
+    
+        <section>
+      <h2>Update Member Record Use Case Activity Diagram</h2>
+	  <img src='UpdateMemberRecords.png'>
+    </section>
+    
+        <section>
+      <h2>Update Provider Record Use Case Activity Diagram</h2>
+	  <img src='UpdateProviderRecords.png'>
+    </section>
+    
+        <section>
+      <h2>Request Reports Use Case Activity Diagram</h2>
+	  <img src='RequestReport_AD.png'>
+    </section>
+    
+        <section>
+      <h2>Bill ChocAn Use Case Activity Diagram</h2>
+	  <img src='billChocAn.png'>
+    </section>
+    
+        <section>
+      <h2>Run Main Accounting Procedure Use Case Activity Diagram</h2>
+	  <img src='Main Accounting Procedure Activity.png'>
+    </section>
+    
+        <section>
+      <h2>Verify Operator Use Case Activity Diagram</h2>
+	  <img src='Verify Operator Activity.png'>
+    </section>
+    
+        <section>
+      <h2>Verify Manager Use Case Activity Diagram</h2>
+	  <img src='SonnyNgoVerifyManagerActivity.png'>
+    </section>
+    
+        <section>
+      <h2>Verify Provider Use Case Activity Diagram</h2>
+	  <img src='SonnyNgoVerifyProviderActivity.png'>
+    </section>
+    
+            <section>
+      <h2>Bitbucket Statistics</h2>
+	  <img src='BB2.png'>
+    </section>
+    
+<!--
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+    <section>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+      <h1>Text Goes Here!</h1>
+    </section>
+    
+  -->
+
+    <blockquote>
+    <img src="oldLadyChoc.png" width="500" height="400"> <br><br><br>
+      <p>Thanks for visiting!</p>
+    </blockquote>
+  </main>
+  <div id="app"></div>
+  <script type="module">
+    import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js'
+
+    import { OrbitControls } from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js' //This is a CDN to get orbit controls, which are an "addon" or an "example" that is not included with the main THREE library import above.
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x301934);
+
+    const pointLight = new THREE.PointLight(0xffffff); //0x is a hexadecimal literal. It means we are working with hexadecimals.
+    pointLight.position.set(20, 20, 20);
+    const ambientLight = new THREE.AmbientLight(0xffffff); //Ambient light will light up everything evenly.
+    scene.add(pointLight, ambientLight);
+    // const lightHelper = new THREE.PointLightHelper(pointLight);
+    // const gridHelper = new THREE.GridHelper(200, 50);
+    // scene.add(lightHelper, gridHelper);
+
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+    const renderer = new THREE.WebGLRenderer({
+      canvas: document.querySelector("#bg"), //We want to use the canvas with the ID of bg (background).
+    });
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    camera.position.setZ(500);
+    camera.position.setX(-3);
+
+    const geometry = new THREE.TorusGeometry(6, 0.05, 16, 100); //The vectors that make up an object.
+    const material = new THREE.MeshStandardMaterial({
+      color: 0xFFA500,
+    }); //The wrapping paper to go around that object.
+    const torus = new THREE.Mesh(geometry, material) //Geometry + Material
+    scene.add(torus);
+    const geometry1 = new THREE.TorusGeometry(6, 0.05, 16, 100); //The vectors that make up an object.
+    const material1 = new THREE.MeshStandardMaterial({
+      color: 0xFF0000,
+    }); //The wrapping paper to go around that object.
+    const torus1 = new THREE.Mesh(geometry1, material1) //Geometry + Material
+    scene.add(torus1);
+    const geometry2 = new THREE.TorusGeometry(6, 0.05, 16, 100); //The vectors that make up an object.
+    const material2 = new THREE.MeshStandardMaterial({
+      color: 0x00FF00,
+    }); //The wrapping paper to go around that object.
+    const torus2 = new THREE.Mesh(geometry2, material2) //Geometry + Material
+    scene.add(torus2);
+
+    const controls = new OrbitControls(camera, renderer.domElement); //This will listen to dom events on the mouse, and update the camera position accordingly.
+
+    function addStar() {
+      const geometry = new THREE.SphereGeometry(0.25, 24, 24);
+      const material = new THREE.MeshStandardMaterial({
+        color: 0xffffff,
+      });
+      const star = new THREE.Mesh(geometry, material);
+      const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(500)); //This randomly generates an x, y, and z position value for each star by filling an array with 3 values, then mapping each value to the ThreeJS random float spread function which is a helper function that randomly generates a number between negative and positive arguments, (100 in this case).
+      star.position.set(x, y, z);//Then we will take those numbers from above and set it as the position of a star. Then we will add it to the scene.
+      scene.add(star);
+    } //This function populates the layout with stars.
+    Array(2000).fill().forEach(addStar); //This creates an array of 200 elements. For each of these elements, we fill it with a new star which in turn will cause 200 new stars to populate on the scene.
+
+    const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+    //scene.background = spaceTexture;
+
+    //Creating my avatar cube
+    const wesTexture = new THREE.TextureLoader().load('17Pic.png');
+    const wes = new THREE.Mesh(
+      new THREE.BoxGeometry(3, 3, 3),
+      new THREE.MeshBasicMaterial({
+        map: wesTexture,
+      })
+    );
+    //scene.add(wes);
+
+    //Creating a moon
+    const moonTexture = new THREE.TextureLoader().load('moon.jpg');
+    const normalTexture = new THREE.TextureLoader().load('normal.jpg');
+    const moon = new THREE.Mesh(
+      new THREE.SphereGeometry(3, 32, 32),
+      new THREE.MeshStandardMaterial({
+        map: moonTexture,
+        normalMap: normalTexture, //The normal map will make the surface of the moon look like it has depth.
+      })
+    );
+    //scene.add(moon);
+    moon.position.z = 20;            //Both of these do
+    moon.position.setX(-10);         //the same thing!
+
+    wes.position.z = -5;
+    wes.position.x = 2;
+    wes.position.y = 0.3;
+
+    function moveCamera() {
+      const t = document.body.getBoundingClientRect().top; //This will get the position on the webpage that the user has already scrolled to. The "top" property will show us exactly how far we are from the top of the webpage.
+      moon.rotation.x += 0.02;
+      moon.rotation.y += 0.025;
+      moon.rotation.z += 0.01;
+
+      wes.rotation.y += 0.02;
+      wes.rotation.z += 0.02;
+
+      camera.position.z = t * -0.01;
+      camera.position.x = t * -0.0002;
+      camera.rotation.y = t * -0.0004;
+    }
+    document.body.onscroll = moveCamera; //This will make the camera move when we scroll. This is an event handler.
+    moveCamera();
+
+    function animate() {
+      requestAnimationFrame(animate);
+      torus.rotation.x += 0.01;
+      torus.rotation.y += 0.005;
+      torus.rotation.z += 0.01;
+      torus1.rotation.x += 0.005;
+      torus1.rotation.y += 0.01;
+      torus1.rotation.z += 0.01;
+      torus2.rotation.x += 0.01;
+      torus2.rotation.y += 0.01;
+      torus2.rotation.z += 0.005;
+
+      moon.rotation.x += 0.005;
+
+      //controls.update(); //This is for orbitControls
+
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+
+</html>

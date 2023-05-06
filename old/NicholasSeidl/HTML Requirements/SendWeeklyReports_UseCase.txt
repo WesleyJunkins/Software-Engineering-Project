@@ -1,0 +1,8 @@
+Use Case: Send Weekly Reports
+Context: Each week, reports are to be sent to each member detailing the services that they received during that week.
+Actors: Data Center
+Main Success Scenario:
+1. At midnight on each Friday, the Data Center runs the main accounting procedure.
+2. System requests weekly member reports.
+3. Add the member name, number, street address, city, state, and ZIP code to each report.
+4. Send individual reports to each member with the previous information in an email attachment. 

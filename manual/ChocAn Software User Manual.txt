@@ -1,0 +1,102 @@
+Chocoholics Anonymous Software User Manual
+By Team17, LLC.
+
+Chocoholics Anonymous (ChocAn) is an organization that aids recovering chocoholics in covering their medical and therapy bills. The ChocAn software, developed by Team17, is a system designed to organize and store data, manage user accounts, and run accounting reports, all with a clean and user-friendly interface. This manual is a comprehensive overview of the software.
+
+-------------
+
+1. On boot-up:
+
+When launching the software, you will be greeted with a welcome screen asking you to enter your login credentials. If the information you enter is incorrect, you will be asked to enter your information again.
+
+2. Main Menu:
+
+Along with being asked to log in to a specific account type, the main menu will also give you the option to Run Main Accounting Procedure [4]. Selecting this will automatically perform the tasks associated with the main acounting procedure.
+
+3. After logging-in:
+
+After you have successfully logged in, the system will search for your account type and send you to the correct menu. Depending on your status, you may be sent to the Manager, Provider, or Operator menu. From there, you will be able to choose the functionality of your system.
+
+4. At the menu:
+
+After you have been sent to your specific menu, you will see a list of options that you can choose from. Entering a number will allow you to choose that item from the menu.
+Depending on which menu you have been sent to, you will see different items listed.
+
+	Provider Menu: (IDs = 1004, 1005) (Member IDs = 1001, 1002)
+		[1] Validate Member: will allow you to verify that the member exists. If they do, this will tell you the status of the member. -1 = does not exist, 0 = suspended, 1 = valid member
+		[2] Check-in Member: will allow you to identify that you provided services to a specific member.
+		[3] Request Provider Directory: will allow you to print a directory of all the providers in the system.
+		[4] Exit: will take you back to the main menu.
+
+	Operator Menu: 
+		[1] Delete Member Record: deletes the record of the member that you provide.
+		[2] Add Member Record: allows you to create an entry for a new member and store it in the ChocAn system
+		[3] Edit Member Record: allows you to edit the details of a member's record who is already in the ChocAn system
+		[0] Exit: will take you back to the main menu.
+
+	Manager Menu:
+		[1] Request Individual Reports: allows you to specify a certain member or provider's reports to be printed to the screen
+		[2] RequestAllReports: prints all reports to the screen
+		[0] Exit: will take you back to the main menu.
+
+5. Special User Functions:
+
+Inside each user's menu are prompts for performing a task or entering information. Each menu is the same. You will be given a list of numbers
+and the descriptions of their functionality. Enter a number into the console after each prompt to specify what you would like to do.
+In response, the software will either prompt you for more information or exit you back to the previous menu. 
+There will be an exit option inside each menu. This will take you to the previous menu. There will not be an exit option in the specific tasks 
+that can be performed. Once you enter a task, you must finish before exiting. 
+
+6. Exiting the software:
+
+	If the ChocAn software gives false information, you may need to reboot your software. To do this, continually exit from every menu until you are on the main menu. On the main menu, type 5. The software will 	shutdown. You can then start the software up again and use it as normal. If the issues you are having persist, please call ChocAn Software support.
+
+--------------
+
+Cloning the repo:
+
+In Eclipse, click File>Import>Projects from Git>Clone URL>enter https://wcjunkins@bitbucket.org/azaman2/spring23team17.git into the repository name (replace wcjunkins with your bitbucket username). Click finish. The repository should have been added to the Eclipse sidebar.
+
+Making a JAR file:
+
+In the Eclipse sidebar, navigate to the src/ChocAn/FixedCompatibilityIssues. Right click on ChocAnMain.java and select export. Then click the Java drop-down and select Runnable JAR file. Leave the launch configuration and save path as it is (unless you would like to change where it saves). Go to wherever you saved the JAR file and run it.
+
+Building the program:
+
+There is a folder in the project directory dedicated to storing the tester files. You cannot build the project with the tester files inside the src folder, so, before building, move all tester files from src into testers. Then, double-click the build.xml to build the program.
+
+-------------
+
+Task Distribution Table:
+
+Wesley Junkins:
+	Tasks: Created 5 classes(ManagerReport, ManagerController, ManagerMenu, ProviderReport, AccountVerifier), Created User Manual, Created JUnit test cases, Kept Repo Organized, Hosted team zoom meetings, Created JavaDoc comments for my classes.
+	Percent Contributed: 18%
+	Hours: 15
+
+Nicholas Seidl:
+	Tasks: Created 2 Java classes(DataCenter, Service), edited initial java files to fix compilation errors, created the javadoc, created the ant file, created the .jar file, created individual tester file, commented for javadoc on my own files.
+	Percent Contributed:25%
+	Hours: 21
+	
+Campbell Thompson:
+	Tasks: Created Account, ProviderAccount, OperatorController, OperatorMenu, ProviderDirectory, and ChocAn main classes w/ JavaDoc comments, created Junit tests
+	Percent Contributed: 18%
+	Hours: 11
+
+Dylan Iovino:
+	Tasks:  Created ProviderController class, javadocs, and junit testing
+	Percent Contributed: 13%
+	Hours: 7.5
+
+Sam Wood:
+	Tasks: Created MemberAccount, ProviderMenu + JavaDoc comments, JUnit tests, bug fixing
+	Percent Contributed: 13%
+	Hours: 7.5
+
+Sonny Ngo:
+	Tasks: Created MemberReport and ServiceLog classes, JUnit test
+	Percent Contributed: 13%
+	Hours: 7.5
+
+

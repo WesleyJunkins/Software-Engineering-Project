@@ -1,0 +1,35 @@
+Update member and provider records
+
+Use case: Update member and provider records
+Context: Add new members who have joined ChocAn, remove members who have left, suspend members who have not paid their membership fee, reinstate suspended members who have paid their fee, update member and provider information. All information is stored in the ChocAn Data Center.
+Actors: Operator, Acme Software
+Main Success Scenario: The step-by-step description, such as: 
+1. ChocAn Data Center is converted into interactive mode during the day, displaying a login menu.
+2. Operator who wants to change member/provider records logs in to the ChocAn Data Center system.
+3. System displays a menu to select whether member or provider records are being updated.
+4. Operator selects the desired option.
+5. System displays a search bar to type in the name of the member/provider.
+6. Operator types in the name of the user and presses enter.
+7. System displays user information that can be updated.
+8. Operator makes desired changes.
+9. Operator clicks “Done” when changes have been completed.
+10. ChocAn Data Center returns to the login screen.
+
+Extensions: Possible alternatives to the steps you may think of (e.g., what happens if something goes wrong at this step), such as: 
+0a. Actor is Acme Software
+	0a1. Software establishes a direct connection to the ChocAn Data Center.
+	0a2. Acme directly updates user records at 9 P.M. every night.
+2a. Incorrect login information.
+	2a1. ChocAn Data Center displays an error message.
+	2a2. Use case continues at Step 1.
+6a. Name does not exist in the database.
+	6a1. System asks if a user with the entered name should be added.
+	6a2. If yes, the system adds a new member with the entered name.
+6a3. Use case continues to step 7.
+	6a4. If no, use case continues to step 5.
+7a. Actor wishes to delete a member.
+	7a1. Actor clicks on the “Delete” button.
+	7a2. System verifies this is what the operator wants.
+	7a3. Operator clicks “Yes”.
+	7a4. Use case continues to step 10.
+

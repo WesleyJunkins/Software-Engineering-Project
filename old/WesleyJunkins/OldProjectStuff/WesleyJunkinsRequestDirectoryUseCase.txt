@@ -1,0 +1,15 @@
+Use Case: Request Provider Directory
+Context: At any time, the Provider may request to see a Provider Directory.
+         This directory includes a list of alphabetical service names, their service codes, and their fees.
+         This use case includes "verify provider."
+Actors: Providers
+Main Success Scenario:
+    1. The provider may randomly pull up the provider directory.
+    2. The sorted list of services, codes, and fees from the ChocAn database is prepared.
+    3. The email of the provider is obtained (without the provider actually keying it in).
+    4. The list is sent to the provider's email.
+    5. The provider is asked if they would like to exit.
+    6. The use case is completed, exit the system.
+Extensions:
+	5a. Do not exit is chosen
+		5a.1. The use case continues at step 2.
